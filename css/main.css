@@ -1,12 +1,14 @@
 body {
 	font-family: helvetica;
 	margin: 0 auto;
-	padding: 0 23%;
+	max-width: 850px;
+	padding: 0 10%;
+	color: #555;
 }
 
 nav ul {
 	list-style: none;
-	padding: 0px 0px 15px 0px;
+	padding: 5px 0px 15px 0px;
 	border-bottom: .5px solid #ccc;
 }
 
@@ -17,54 +19,77 @@ nav li {
 }
 
 h1 {
-	font-size: 30px;
-	color: orange;
-	padding: 10px 0px 0px 0px;
+	font-size: 36px;
+	color: #ff7860;
+	margin: 20px 20px 20px 0px;
 }
 
 h2 {
-	font-size: 18px;
-	font-weight: 300;
+	font-size: 17px;
+	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	line-height: 26px;
+	line-height: 30px;
+	margin: 10px 0px;
 }
 
 a {
 	text-decoration: none;
-	color: orange;
+	color: #ff7860;
 }
 
 p {
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 30px;
+	margin: 0px 0px 20px 0px;
 }
 
-p em {
+.about_container {
+	display: inline-block;
+	max-width: 850px;
+}
+
+.about_container img {
+	width: 40%;
+	max-width: 300px;
+	min-width: 250px;
+	margin: 25px 25px 25px 0px;
+	float: left;
+	border: 0.5px solid #ccc;
+}
+
+.about_text {
+	text-align: left;
+}
+
+.tk {
 	font-style: italic;
+	color: #ccc;
 }
 
 .project_list {
 	list-style: none;
 	padding: 0px;
+	margin-bottom: 90px;
 }
 
-.project_list img {
+.project_list_container img {
 	width: 40%;
 	max-width: 300px;
-	padding: 0px 20px 20px 0px;
+	min-width: 250px;
+	margin: 0px 20px 20px 0px;
 	float: left;
+	border: 0.5px solid #ccc;
 }
 
-.project_container {
+.project_list_container {
 	display: inline-block;
 	width: 100%;
 }
 
-.project_text {
+.project_list_text {
 	text-align: left;
 }
-
 
 footer {
 	text-align: center;
@@ -73,7 +98,7 @@ footer {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	padding: 0px 25px;
+	padding: 0px;
 }
 
 footer p {
@@ -84,12 +109,13 @@ footer p {
 
 footer ul {
 	list-style: none;
-	padding: 5px;
+	padding: 0px;
 }
 
 footer li {
 	display: inline;
-	padding: 10px;
+	text-align: center;
+	padding-right: 10px;
 	color: white;
 }
 
